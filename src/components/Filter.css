@@ -1,0 +1,40 @@
+.filter {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px; /* Adjust as needed */
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column; /* Arrange elements vertically */
+    gap: 10px; /* Space between fields */
+}
+
+.filter-group label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+}
+
+.filter-group select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.details-button {
+    background-color: #007bff;
+    color: white;
+    align-content: left ;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.details-button:hover {
+    background-color: #0056b3;
+}
