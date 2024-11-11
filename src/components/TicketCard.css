@@ -1,0 +1,41 @@
+.ticket-card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px 0;
+    transition: transform 0.2s;
+}
+
+.ticket-card:hover {
+    transform: scale(1.02);
+}
+
+.ticket-card h3 {
+    font-size: 1.2em;
+    margin: 0 0 10px 0;
+}
+
+.ticket-card p {
+    margin: 5px 0;
+}
+
+.priority-4 {
+    border-left: 5px solid red; /* Urgent */
+}
+
+.priority-3 {
+    border-left: 5px solid orange; /* High */
+}
+
+.priority-2 {
+    border-left: 5px solid yellow; /* Medium */
+}
+
+.priority-1 {
+    border-left: 5px solid green; /* Low */
+}
+
+.priority-0 {
+    border-left: 5px solid gray; /* No Priority */
+}

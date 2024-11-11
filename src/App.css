@@ -1,0 +1,18 @@
+/* src/App.css */
+.App {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: #f4f6fa;
+}
+
+.board {
+  display: flex;
+  gap: 20px;
+}
+
+.column {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+}
